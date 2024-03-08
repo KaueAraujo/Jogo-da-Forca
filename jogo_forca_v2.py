@@ -158,6 +158,7 @@ def executaGame():
 
     # Verifica se o jador perdeu
     if '_' in letras_descobertas:
+        print(displayForca(vidas))
         print("Mais sorte na próxima vez! A palavra era: ", palavra_chave)
 
 
