@@ -1,0 +1,28 @@
+1. Defina uma lista de palavras para serem usadas no jogo.
+
+2. Escolha aleatoriamente uma palavra da lista para ser a palavra a ser adivinhada.
+
+3. Inicialize uma lista vazia para armazenar as letras adivinhadas.
+
+4. Inicialize uma variável para armazenar o número máximo de tentativas.
+
+5. Inicialize uma variável para contar o número de tentativas.
+
+6. Exiba uma mensagem de boas-vindas e explique as regras do jogo.
+
+7. Enquanto o número de tentativas for menor que o número máximo de tentativas:
+    1. Exiba a palavra a ser adivinhada com espaços para as letras não adivinhadas.
+    2. Solicite ao jogador que insira uma letra.
+    3. Verifique se a letra já foi adivinhada ou não.
+       Se a letra já foi adivinhada, informe o jogador e continue para a próxima iteração.
+    4. Verifique se a letra está na palavra a ser adivinhada.
+       Se a letra estiver na palavra, adicione-a à lista de letras adivinhadas.
+       Se não estiver na palavra, informe o jogador e atualize o número de tentativas.
+    5. Verifique se o jogador adivinhou todas as letras da palavra.
+       Se todas as letras forem adivinhadas, exiba uma mensagem de vitória e encerre o jogo.
+    6. Se o número de tentativas atingir o limite máximo, exiba uma mensagem de derrota e revele a palavra correta.
+    7. Exiba o status atual do jogo (palavra adivinhada, letras incorretas, número de tentativas restantes).
+
+8. Pergunte ao jogador se deseja jogar novamente.
+   Se sim, volte ao passo 2.
+   Se não, encerre o jogo.
